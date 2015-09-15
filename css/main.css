@@ -1,0 +1,363 @@
+html {
+	box-sizing: border-box;
+	background-color: white;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+img {
+width: 100%;
+padding: .5em;}
+
+.background {
+	width: 100%;
+	margin: 0em;
+	padding: 0em;
+}
+
+body {
+	margin: 0em;
+}
+
+.box-1 {
+float: left;
+width: 33.33%;
+font-family: ;
+padding-bottom: 1em;
+color: white;
+}
+
+.box-2 {
+float: left;
+width: 33.33%;
+font-family: ;
+padding-bottom: 1em;
+color: white;
+}
+
+.box-3 {
+float: right;
+width: 33.33%;
+font-family: ;
+padding-bottom: 1em;
+color: white;
+}
+
+
+.tickets {
+text-align: center;
+font-family: ;
+font-size: 0.9em;
+
+}
+
+
+.button-kids {
+	padding: .5em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	font-size: 1em;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	font-family: ;
+	display: inline-block;
+	width: 36%;
+}
+}
+
+.button-adults {
+	padding: .5em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	font-size: 1em;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	font-family: ;
+	display: inline-block;
+	width: 36%;
+}
+
+
+.atlantis-image {
+opacity: 0em;
+margin-bottom: 0em;
+width: 100%;
+padding: .5em;
+}
+
+
+.at-head {
+position: absolute;
+top: 10%;
+font-size: 1.5em;
+font-family: ;
+color: white;
+text-align: center;
+width: 100%;
+}
+
+.at-text {
+position: absolute;
+top: 35%;
+font-size: 1em;
+font-family: ;
+color: white;
+text-align: center;
+width: 100%;
+}
+
+.dates {
+	text-align: left;
+	overflow: hidden;
+	padding: .5em;
+}
+
+.dates-des {
+padding: 0em;
+width: 100%;
+font-family: ;
+font-size: 0.75em;
+
+}
+
+.nowplaying {
+	position: relative;
+	background: black;
+}
+
+nav {
+	background=color: white;
+	padding-bottom: 0em;
+	clear: both;
+	margin: 0em;
+}
+
+
+nav li {
+	font-family:, sans-serif;
+	text-align: center;
+	margin: 0em;
+	border: 0em;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	padding: 0em;
+
+		font-size: ;
+		clear: ;
+}
+
+h2 {
+	text-align: center;
+		padding-top: .5em;
+		font-family: , sans-serif;
+		font-size: 1.4em;
+		padding: 0.5em;
+		margin: 0em;
+		color: white;
+}
+
+h3 {
+	text-align: left;
+		display: block;
+		font-family: , sans-serif;
+		font-size: 1em;
+		color: white;
+		margin: .5em;
+}
+
+
+footer {
+	background-color: gray;
+	padding: 1em;
+	font-family: ;
+	font-size: 0.5em;
+	list-style-type: none;
+
+	}
+
+ footer ul {
+ 	list-style-type: none;
+ 	padding-left: 1em;
+ }
+
+ footer nav {
+ 	background: white;
+ }
+
+ footer p {
+ 	padding: .5em;
+ 	margin: 0em;
+ }
+
+ li {
+ }
+
+p {
+	text-align: center;
+	font-size: 16px;
+	font-family: , sans-serif;
+	color: white;
+	padding: 0;
+	}
+
+
+nav li {
+	font-family:, sans-serif;
+	text-align: center;
+	margin: 0em;
+	border: 0em;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	padding: 0em;
+
+		font-size: ;
+		clear: ;
+}
+
+
+.thisweek {
+background-color: gray;
+overflow: hidden
+padding: 1em 1em;
+
+
+}
+
+
+.swtitle {
+	position: absolute;
+	top: 30%;
+	margin: 0em;
+	font-size: 1.2em;
+	text-align: center;
+	color: white;
+	font-family: ;
+		width: calc(100% - 2em);
+	z-index: 200;
+	width: 100%;
+	background-color: none;
+}
+
+.ptitle {
+	position: absolute;
+	width: calc(100% - 2em);
+	top: 39%;
+	margin: 0em;
+	font-family: ;
+	font-size: .90em;
+	z-index: 1000;
+	color: white;
+	text-align: center;
+	padding-left: 1em;
+}
+
+
+.sevenwonders {
+	padding: 1em;
+	padding-top: .5em;
+	background-color: black;
+}
+}
+div {
+	background-color: white;
+}
+
+.buytickets {
+background-color: gray;
+
+}
+
+header{
+		background-color: gray;
+padding-right: .5em;
+padding: 1.5em;
+}
+
+dl {
+	overflow: hidden;
+	margin: 0em;
+}
+
+dd {
+margin-left: 0;
+font-size: 0.7em;
+text-align: center;
+padding: 0em;
+}
+
+
+dt {
+font-size: 0.8em;
+text-align: center;
+padding: 0em;}
+
+
+.logo {
+	width: 12%;
+	float:left;
+}
+
+h1 {
+	font-size: 1.5em;
+	font-family: ;
+	display: inline;
+	text-align: center;
+	padding: 1em;
+	padding-left: 1em;
+}
+
+.buy-button {
+	padding: .5em;
+	margin-right: 0em;
+	font-size: 1em;
+	border-radius: 10px;
+	background-color: #EBEBFF;
+	text-align: center;
+	font-family: ;
+	float: right;
+	display: inline-block;
+	width: 20%;
+}
+
+ol li {
+display: inline;
+width: 25%;
+margin: 0em;
+padding: 0.5em;
+font-family: ;
+font-size: 1em;
+}
+
+ol {
+	margin: 0em;
+	padding: 0em;
+	overflow: hidden;
+	text-align: center;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-size: .5em;
+		padding: .5em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	font-family: ;
+	display: inline-block;
+	width: 80%;
+	float: both;
+}
+.banner {
+overflow: hidden;
+padding: 0em;
+margin: 0em;
+}
