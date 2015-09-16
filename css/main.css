@@ -1,6 +1,6 @@
 html {
 	box-sizing: border-box;
-	background-color: white;
+	background-color: black;
 }
 
 *, *::before, *::after {
@@ -65,7 +65,8 @@ font-size: 0.9em;
 	font-family: ;
 	display: inline-block;
 	width: 36%;
-}
+	float: right;
+
 }
 
 .button-adults {
@@ -114,6 +115,7 @@ width: 100%;
 	text-align: left;
 	overflow: hidden;
 	padding: .5em;
+	padding-left: 2em;
 }
 
 .dates-des {
@@ -170,12 +172,13 @@ h3 {
 		font-size: 1em;
 		color: white;
 		margin: .5em;
+		padding-left: 1em;
 }
 
 
 footer {
 	background-color: gray;
-	padding: 1em;
+	padding-bottom: 1em;
 	font-family: ;
 	font-size: 0.5em;
 	list-style-type: none;
@@ -185,6 +188,7 @@ footer {
  footer ul {
  	list-style-type: none;
  	padding-left: 1em;
+ 	background-color: none;
  }
 
  footer nav {
@@ -192,11 +196,13 @@ footer {
  }
 
  footer p {
- 	padding: .5em;
+ 	padding: 0em;
  	margin: 0em;
  }
 
  li {
+ 	padding: 0em;
+ 	margin:;
  }
 
 p {
@@ -303,8 +309,9 @@ padding: 0em;
 
 
 .logo {
-	width: 12%;
+	width: 20%;
 	float:left;
+	padding: .5em;
 }
 
 h1 {
@@ -339,7 +346,7 @@ font-size: 1em;
 }
 
 ol {
-	margin: 0em;
+	margin: -1em;
 	padding: 0em;
 	overflow: hidden;
 	text-align: center;
@@ -365,3 +372,40 @@ overflow: hidden;
 padding: 0em;
 margin: 0em;
 }
+
+
+.contact {
+	color: black;
+	text-decoration: none;
+	font-size: .8em;
+		padding: -2em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+	border-radius: 0em;
+	background-color: gray;
+	text-align: left;
+	font-family: ;
+	display: inline-block;
+	width: 80%;
+	float: both;
+}
+
+.navigation {
+		font-family:, sans-serif;
+	text-align: center;
+	margin: 0em;
+	border: 0em;
+	display: inline-block;
+	width: 25%;
+	float: left;
+	padding: 1em;
+	float: both;
+
+		font-size: ;
+		clear: ;
+
+}
+
+.cite {
+text-align: left;
+padding-left: 1em;}
