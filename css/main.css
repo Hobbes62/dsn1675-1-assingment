@@ -198,10 +198,6 @@ footer {
  	background: white;
  }
 
- footer p {
- 	padding: 0em;
- 	margin: 0em;
- }
 
  li {
  	padding: 0em;
@@ -393,7 +389,7 @@ background-color: black;
 	margin: 0em;
 	border: 0em;
 	display: inline-block;
-	width: 25%;
+	width: 40%;
 	float: left;
 	padding: 1em;
 }
@@ -403,23 +399,6 @@ text-align: left;
 padding-left: 1em;
 background-color: gray;
 font-size: .5em;
-padding: 1em;}
+padding: 1em;
+margin: 0em;}
 
-.footer {
-		background-color: gray;
-	padding-bottom: 1em;
-	font-family: 'Oswald', sans-serif;
-	font-weight: normal;
-	font-size: 0.5em;
-	list-style-type: none;
-
-}
-
-.bottom {
-			background-color: gray;
-	padding-bottom: 1em;
-	font-family: 'Oswald', sans-serif;
-	font-weight: normal;
-	font-size: 0.5em;
-	list-style-type: none;
-}
