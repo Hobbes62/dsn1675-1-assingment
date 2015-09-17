@@ -9,7 +9,8 @@ html {
 
 img {
 width: 100%;
-padding: .5em;}
+padding: .5em;
+}
 
 .background {
 	width: 100%;
@@ -53,7 +54,6 @@ background-color: black;
 text-align: center;
 font-family: 'Oswald', sans-serif;
 font-size: 0.9em;
-
 }
 
 
@@ -257,13 +257,15 @@ padding: 1em 1em;
 .ptitle {
 	position: absolute;
 	top: 45%;
+	left: 3%;
 	margin: 0em;
 	font-family: 'Oswald', sans-serif;
 	font-size: .90em;
 	z-index: 1000;
 	color: white;
 	text-align: center;
-	padding-left: 1em;
+	padding-right: 1em;
+
 }
 
 
