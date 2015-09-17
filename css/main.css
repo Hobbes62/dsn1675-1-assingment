@@ -144,6 +144,14 @@ nav {
 	text-align: center;
 }
 
+.footer {
+		background-color: gray;
+	padding-bottom: 0em;
+	clear: both;
+	margin: 0em;
+	padding-right: 1em;
+	text-align: center;
+}
 
 nav li {
 	font-family: 'Oswald', sans-serif;
@@ -152,7 +160,6 @@ nav li {
 	border: 0em;
 	display: inline-block;
 	width: 25%;
-	float: left;
 	padding: 0em;
 }
 
@@ -179,11 +186,12 @@ h3 {
 
 footer {
 	background-color: gray;
-	padding-bottom: 1em;
+	padding-bottom: 0em;
 	font-family: 'Oswald', sans-serif;
 	font-weight: normal;
 	font-size: 0.5em;
 	list-style-type: none;
+	overflow: hidden;
 
 	}
 
@@ -192,10 +200,12 @@ footer {
  	padding-left: 3em;
  	background-color: gray;
  	margin: 0em;
+
  }
 
  footer nav {
- 	background: white;
+ 	background: gray;
+
  }
 
 
@@ -234,7 +244,7 @@ padding: 1em 1em;
 
 .swtitle {
 	position: absolute;
-	top: 30%;
+	top: 31%;
 	margin: 0em;
 	font-size: 1.2em;
 	text-align: center;
@@ -246,7 +256,7 @@ padding: 1em 1em;
 
 .ptitle {
 	position: absolute;
-	top: 42%;
+	top: 45%;
 	margin: 0em;
 	font-family: 'Oswald', sans-serif;
 	font-size: .90em;
@@ -266,6 +276,7 @@ padding: 1em 1em;
 
 div {
 	background-color: white;
+	overflow: hidden;
 }
 
 .buytickets {
@@ -384,14 +395,12 @@ background-color: black;
 }
 
 .navigation {
-	font-family: 'Oswald', sans-serif;
-	text-align: center;
+	background-color: white;
+	padding-bottom: 0em;
+	clear: both;
 	margin: 0em;
-	border: 0em;
-	display: inline-block;
-	width: 40%;
-	float: left;
-	padding: 1em;
+	padding-right: 1em;
+	text-align: center;
 }
 
 .cite {
@@ -402,3 +411,16 @@ font-size: .5em;
 padding: 1em;
 margin: 0em;}
 
+.links {
+	color: black;
+	text-decoration: none;
+	font-size: .8em;
+		padding: 0em;
+	margin-right: em;
+	margin-top: 2em;
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+float: left;
+	display: inline-block;
+	width: 40%;
+}
